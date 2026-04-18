@@ -1,7 +1,7 @@
 import pyttsx3
 
 
-engine = pyttsx3.init()
+# engine = pyttsx3.init()
 
 # name = input("What is your good name : ")
 
@@ -9,10 +9,10 @@ engine = pyttsx3.init()
 
 # print(message)
 
-with open("file.txt","r") as file:
-    message = file.read()
+# with open("file.txt","r") as file:
+#     message = file.read()
 
-engine.say(message)
-engine.runAndWait()
+# engine.say(message)
+# engine.runAndWait()
 
 
