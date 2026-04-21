@@ -79,6 +79,49 @@ import numpy
 # array2 = numpy.array([[1,2,3],[4,5,6],[7,8,9]])
 # print(array2[1:3,0:3])
 
+#================================== Copy and View ==========================
 
+# arr = numpy.array([1,2,3,4,5])
 
+# x = arr.copy()
+# arr[0] = 42
+
+# # This is the copy of the array
+# print(x)
+# # This is the original array
+# print(arr)
+
+#================================
+
+# arr2 = numpy.array([1,2,3,4,5])
+
+# # y is the view of arr2, it shares the same data
+# y = arr2.view()
+# arr2[0] = 42
+# print(arr2)
+# print(y)
+
+#=========================== Array shape =========================
+
+# arr = numpy.array([[1,2,3,4],[6,7,8,9]])
+# print(arr.shape)
+
+# var = numpy.array([[1,2,3,4,5],[6,7,8,9,10]])
+# print(var.shape)
+
+#========================== Array Reshape =============================
+
+# arr = numpy.array([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20])
+
+# newarr = arr.reshape(10,2)
+# print(newarr)
+
+# # check the dimensions of the new array
+# print(newarr.ndim)
+
+# ======================== Flattening multi dimension array to 1D ===========================
+
+# arr = numpy.array([[1,2,3],[4,5,6],[7,8,9]]) 
+# newarr = arr.reshape(-1)
+# print(newarr)
 
