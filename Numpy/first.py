@@ -125,3 +125,61 @@ import numpy
 # newarr = arr.reshape(-1)
 # print(newarr)
 
+#========================= Iterating Through a numpy array ======================
+
+# arr = numpy.array([[[1,2,3],[4,5,6]],[[7,8,9],[10,11,12]]])
+
+# for x in arr:
+#     for y in x:
+#         for z in y:
+#             print(z)
+
+# #======================= Iterating using the nditer() function ===================
+
+# arr = numpy.array([[[1,2,3],[4,5,6]],[[7,8,9],[10,11,12]]])
+
+# for x in numpy.nditer(arr):
+#     print(x)
+
+#============ Join the two arrays ======================
+
+# arr1 = numpy.array([1,2,3,4])
+# arr2 = numpy.array([5,6,7,8])
+# arr3 = numpy.concatenate((arr1,arr2))
+# print(arr3)
+
+#=====================================
+
+# arr4 = numpy.array([[1,2,3],[4,5,6]])
+# arr5 = numpy.array([[7,8,9],[10,11,12]])
+
+# arr6 = numpy.concatenate((arr4,arr5), axis=1)
+# print(arr6)
+
+# #======================================
+
+# arr4 = numpy.array([[1,2,3],[4,5,6]])
+# arr5 = numpy.array([[7,8,9],[10,11,12]])
+
+# arr6 = numpy.concatenate((arr4,arr5), axis=0)
+# print(arr6)
+
+#=================== Spliting the array =========================
+
+# arr = numpy.array([1,2,3,4,5,6,7,8,9,10])
+# newarr = numpy.array_split(arr,3)
+# print(newarr)
+
+# arr = numpy.array([1,2,3,4,5,6,7,8,9,10])
+# newarr = numpy.array_split(arr,2)
+# print(newarr)
+
+#================= Searching in the array ========================
+
+# arr = numpy.array([1,2,3,4,5,4,4,8,4,10])
+
+# x = numpy.where(arr == 4)
+# print(x)
+
+
+
