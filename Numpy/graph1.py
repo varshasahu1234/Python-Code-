@@ -133,12 +133,14 @@ import numpy as np
 
 # ================== INTRODUCTION OF GRID =============================
 
-x = np.array([1,2,3,4,5,6,7,8,9,10])
-y = np.array([10,15,25,30,40,45,55,65,75,80])
-plt.title("West Bengal VS Tamil Nadu Polls")
-plt.xlabel("Months")
-plt.ylabel("Polls")
-plt.plot(x,y, marker='o', linestyle='dashed', color='purple', linewidth=2, markersize=5)
-plt.grid(linestyle='--',color='blue',linewidth=0.5)
-plt.show()
+# x = np.array([1,2,3,4,5,6,7,8,9,10])
+# y = np.array([10,15,25,30,40,45,55,65,75,80])
+# plt.title("West Bengal VS Tamil Nadu Polls")
+# plt.xlabel("Months")
+# plt.ylabel("Polls")
+# plt.plot(x,y, marker='o', linestyle='dashed', color='purple', linewidth=2, markersize=5)
+# plt.grid(linestyle='--',color='blue',linewidth=0.5)
+# plt.show()
 
+#                                   
+ 
