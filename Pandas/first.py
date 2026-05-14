@@ -20,10 +20,10 @@ import pandas as pd
 
 # =============== changing the indexing ===================
 
-a = [1,2,3,4,5,6,7]
+# a = [1,2,3,4,5,6,7]
 
-zero = pd.Series(a,index=['a','b','c','d','e','f','g'])
+# zero = pd.Series(a,index=['a','b','c','d','e','f','g'])
 
-print(zero)
-print("Finding out the value :", zero['e'])
+# print(zero)
+# print("Finding out the value :", zero['e'])
 
